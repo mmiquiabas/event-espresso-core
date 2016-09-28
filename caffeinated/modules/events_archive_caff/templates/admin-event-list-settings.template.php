@@ -18,9 +18,9 @@ $description = EEH_Form_Fields::prep_answer_options( array(
 	<!--*************************   Event Listings  ****************************-->
 <br/>
 <br/>
-	<h3 class="ee-admin-settings-hdr">
+	<h2 class="ee-admin-settings-hdr">
 		<?php _e('Event List Pages', 'event_espresso'); ?>
-	</h3>
+	</h2>
 	<table class="form-table">
 		<tbody>
 
