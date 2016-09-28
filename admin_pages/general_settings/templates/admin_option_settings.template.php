@@ -3,9 +3,9 @@
 	<?php do_action( 'AHEE__admin_option_settings__template__before', $template_args ); ?>
 
 	<?php /* @todo put back once we have a dashboard widget to use
-	<h2 class="ee-admin-settings-hdr">
+	<h3 class="ee-admin-settings-hdr">
 		<?php _e('WordPress Dashboard', 'event_espresso'); ?>
-	</h2>
+	</h3>
 
 	<table class="form-table">
 		<tbody>
@@ -43,9 +43,9 @@
  * and use it from general_settings in the caffeinated folder
 
 if( defined('CAFFEINATED') && CAFFEINATED ) : ?>
-	<h2 class="ee-admin-settings-hdr">
+	<h3 class="ee-admin-settings-hdr">
 		<?php _e('Time and Date Settings', 'event_espresso'); ?>
-	</h2>
+	</h3>
 	<table class="form-table">
 		<tbody>
 			<tr>

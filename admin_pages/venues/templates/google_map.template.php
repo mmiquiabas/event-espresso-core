@@ -41,10 +41,10 @@
 	</table>
 
 
-	<h2 class="ee-admin-settings-hdr">
+	<h3 class="ee-admin-settings-hdr">
 		<?php _e('Reg Page Map Settings', 'event_espresso'); ?>
 		<?php echo EEH_Template::get_help_tab_link('gmaps_info'); ?>
-	</h2>
+	</h3>
 
 	<table class="form-table">
 		<tbody>

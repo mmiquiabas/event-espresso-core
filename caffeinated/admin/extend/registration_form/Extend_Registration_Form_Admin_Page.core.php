@@ -950,7 +950,7 @@ class Extend_Registration_Form_Admin_Page extends Registration_Form_Admin_Page {
 				'layout_strategy' => new EE_Admin_Two_Column_Layout(),
 				'subsections'     => array(
 					'email_validation_hdr'           => new EE_Form_Section_HTML(
-						EEH_HTML::h2( esc_html__( 'Email Validation Settings', 'event_espresso' ) )
+						EEH_HTML::h3( esc_html__( 'Email Validation Settings', 'event_espresso' ) )
 					),
 					'email_validation_level' => new EE_Select_Input(
 						array(

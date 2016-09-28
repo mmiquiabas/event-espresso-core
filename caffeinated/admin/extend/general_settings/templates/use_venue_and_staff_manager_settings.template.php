@@ -1,7 +1,7 @@
 <?php /* @todo: re-implement this admin option when the staff manager exists
-<h2 class="ee-admin-settings-hdr">
+<h3 class="ee-admin-settings-hdr">
 	<?php _e('Espresso Admin Managers', 'event_espresso'); ?>
-</h2>
+</h3>
 
 <table class="form-table">
 	<tbody>

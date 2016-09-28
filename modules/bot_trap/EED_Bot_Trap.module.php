@@ -255,7 +255,7 @@ class EED_Bot_Trap  extends EED_Module {
 				'html_id'         			=> 'bot_trap_settings',
 				'layout_strategy' 	=> new EE_Admin_Two_Column_Layout(),
 				'subsections'     		=> array(
-					'bot_trap_hdr' 		=> new EE_Form_Section_HTML( EEH_HTML::h2( esc_html__( 'Bot Trap Settings', 'event_espresso' ) ) ),
+					'bot_trap_hdr' 		=> new EE_Form_Section_HTML( EEH_HTML::h3( esc_html__( 'Bot Trap Settings', 'event_espresso' ) ) ),
 					'use_bot_trap' 		=> new EE_Yes_No_Input(
 						array(
 							'html_label_text' 	=> esc_html__( 'Enable Bot Trap', 'event_espresso' ),
